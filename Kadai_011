@@ -1,0 +1,16 @@
+planet_names = ["水","金","地","火","木","土","天","海","冥"]
+
+# forにてplanet_nameを表示
+for planet_name in planet_names:
+    print(planet_name)
+
+# whileにてplanet_nameを表示
+
+i = 0 # カウンタ変数を表示（インデックスをiとする）
+
+while i <= 8 : #インデックスが8以内の場合
+  print(planet_names[i])
+
+  if i == 8: #もしインデックスが8の場合
+    break
+  i = i + 1 #カウンタ変数の値を増やす
