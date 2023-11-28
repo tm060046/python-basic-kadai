@@ -1,0 +1,6 @@
+def add_merchandise_with_tax(price, tax): # priceは値段、taxは消費税％
+  total = price + (price * tax / 100)
+  
+  print(f"商品は{total}円です。")
+
+add_merchandise_with_tax(100, 10) # 商品が100円で消費税10％の時
