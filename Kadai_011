@@ -1,0 +1,14 @@
+planet_names = ["水","金","地","火","木","土","天","海","冥"]
+
+# forにてplanet_nameを表示
+for planet_name in planet_names:
+    print(planet_name)
+
+
+# whileにてplanet_nameを表示
+i = 0 #カウンタ数を0に設定
+while i < 2:  # 繰り返しを2回より小さくする条件
+    for planet_name in planet_names: 
+      print(planet_name)
+      i += 1
+
