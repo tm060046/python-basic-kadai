@@ -1,0 +1,8 @@
+upper_side = 10 #上辺 = 10 cm
+lower_side = 20 #下辺 = 20 cm
+hight = 5 #高さ= 5 cm
+
+# 台形の面積　(上辺 + 下辺) * 高さ / 2
+trapezoid_area = (upper_side + lower_side) * (hight) / 2
+
+print(f"台形の面積は、{trapezoid_area}㎠です。")
