@@ -1,0 +1,26 @@
+# classを作成
+class Human :
+  # コントラクトを定義
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+  
+  #　メソッドの定義
+  def check_adult(self):
+   if self.age >= 20:
+    return(f"{self.name}は、大人である")
+
+   else:
+     return(f"{self.name}は、大人ではない")
+
+#　インスタンスを作成
+human_A = Human ("侍太郎", 36)
+human_B = Human ("侍花子", 18)
+human_C = Human ("侍一郎", 55)
+
+# リストを作成
+personal_data = [human_A, human_B, human_C]
+
+for human in personal_data:
+  human.check_adult()
+
