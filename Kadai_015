@@ -1,0 +1,17 @@
+# Classの定義
+class Human :
+  #　コントラクタの定義
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+  
+  # メソッドの定義
+  def printinfo (self):
+    print(self.name) 
+    print(self.age)
+
+# インスタンス化
+human = Human ("侍太郎", 36)
+
+# printinfoで値を出力
+human.printinfo()
